@@ -48,7 +48,7 @@ Using pytest made it possible to verify game behavior quickly and consistently w
 - Give one example of an AI suggestion that was correct (including what the AI suggested and how you verified the result).
 - Give one example of an AI suggestion that was incorrect or misleading (including what the AI suggested and how you verified the result).
 
-I used AI as a coding assistant throughout the debugging and refactoring process. I asked it questions about the code, requested explanations of how specific functions worked, and used it to help identify potential causes of bugs. AI also helped generate pytest test cases, explain test failures, and suggest refactoring opportunities to separate the game logic from the Streamlit user interface.
+I used Claude Code and Google AI search mode as my primary AI tools on this project. I used AI as a coding assistant throughout the debugging and refactoring process. I asked it questions about the code, requested explanations of how specific functions worked, and used it to help identify potential causes of bugs. AI also helped generate pytest test cases, explain test failures, and suggest refactoring opportunities to separate the game logic from the Streamlit user interface.
 
 ### Example of a Correct AI Suggestion
 
