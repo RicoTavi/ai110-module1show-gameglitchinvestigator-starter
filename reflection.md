@@ -103,6 +103,8 @@ Using both automated testing and manual gameplay helped confirm that the repairs
 
 - How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
 
+Streamlit is what lets players play the game inside a web browser instead of from a terminal, which enhances the user experience. Every time a player submits a guess, the script is rerun behind the scenes — but on screen nothing feels interrupted, so the player stays in the experience. Session state is what makes this work: it holds onto important values like the secret number and the score across those reruns so they don't reset every time the page refreshes.
+
 ---
 
 ## 5. Looking ahead: your developer habits
@@ -111,3 +113,9 @@ Using both automated testing and manual gameplay helped confirm that the repairs
   - This could be a testing habit, a prompting strategy, or a way you used Git.
 - What is one thing you would do differently next time you work with AI on a coding task?
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
+
+One habit I want to carry forward is using AI to help write pytest test cases that cover different scenarios and edge cases. That way automated testing handles the heavy lifting, and manual testing can be reserved for quality control and the overall user experience.
+
+Next time I work with AI on a coding task, I would review the changes it makes to the code more carefully before accepting them, rather than moving forward too quickly.
+
+This project made me feel a lot more confident having AI as a co-pilot in coding. I have a much better sense of what it can do well and where my own judgment still needs to be in the loop.
